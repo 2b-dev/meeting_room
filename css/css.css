@@ -1,0 +1,580 @@
+@font-face {
+  font-family: "SukhumvitSet-Text";
+  src: url("../fonts/SukhumvitSet-Text.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-Text.woff") format("woff"),
+    url("../fonts/SukhumvitSet-Text.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-Text.svg#SukhumvitSet-Text") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "SukhumvitSet-Text", Tahoma, sans-serif;
+}
+.c-8AC242 {
+  color: #8ac242;
+}
+.c-0E8DA1 {
+  color: #0e8da1;
+}
+
+.bg-gra{
+  background-image: linear-gradient(to right, #7eb73a, #008da2)!important;
+}
+
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+  height: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #8ac242;
+}
+
+.page-footer {
+  background-color: #0e2034;
+}
+.top-nav-collapse {
+  background-color: rgba(61, 61, 61, 0.5);
+}
+
+.navbar.navbar-light
+  .meeting-navbar-nav.navbar-nav
+  .nav-item.active
+  > .nav-link {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item > .nav-link {
+  color: #fff;
+  font-family: "SukhumvitSet-Text", Tahoma, sans-serif;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+.navbar.navbar-light
+  .meeting-navbar-nav.navbar-nav
+  .nav-item
+  > .nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item {
+  border-right: 1px solid #fff;
+}
+.navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item:first-child {
+  border-left: 1px solid #fff;
+}
+.navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item:last-child {
+  border-right: none;
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+.logo-nav-meetingroom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14vh;
+}
+
+.headding_slide {
+  font-size: 4rem;
+  font-weight: 900;
+  position: relative;
+}
+.sub_slide {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.line_headding {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+}
+.line_headding2 {
+  position: absolute;
+  left: 18%;
+  right: 70%;
+  bottom: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+}
+.line_headding3 {
+  position: absolute;
+  left: 73%;
+  right: 13%;
+  bottom: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+}
+.line_headding4 {
+  position: absolute;
+  left: 52%;
+  right: 36.5%;
+  bottom: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+}
+.line_headding5 {
+  position: absolute;
+  left: 53%;
+  right: 41%;
+  bottom: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+}
+.contain-image-temple {
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+.default-f {
+  font-size: 1.5rem;
+}
+.default-p {
+  font-size: 1.5rem;
+  text-indent: 3rem;
+}
+.btn-outline-meetingroom {
+  border: 1px solid #386caa !important;
+  background-color: transparent !important;
+  color: #386caa !important;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+}
+.btn-outline-meetingroom2 {
+  border: 2px solid #386caa !important;
+  background-color: transparent !important;
+  color: #386caa !important;
+  border-radius: 1.5rem;
+}
+.btn-getintouch {
+  background-color: #0e9aae;
+  color: #fff !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1.5rem;
+}
+.img-icon-our-service {
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+}
+.img-icon-service-solution {
+  width: 50px;
+  height: 50;
+  margin-right: 8px;
+}
+.text-overlay-our-service-index {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 10%;
+  right: 10%;
+  bottom: 20px;
+}
+.our-server-index {
+  background-image: url("../images/bg-our-service-index.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.div-map {
+  min-height: 300px;
+  position: relative;
+  padding: 0;
+}
+
+.div-map-contact{
+  min-height: 500px;
+  position: relative;
+  padding: 0;
+}
+.div-map-incontact{
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  left: 0;
+  right: 0;
+  bottom: 12vh;
+}
+.img-build-map{
+  width: 120px;
+  height: auto;
+}
+.contain-detail-map{
+  width: 25%;
+  background-color: #DCFBFF;
+}
+.div-map-incontact2{
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  left: 0;
+  right: 0;
+  bottom: 10vh;
+}
+.contain-detail-map2{
+  width: 40%;
+  background-color: #DCFBFF;
+}
+.div-start-event {
+  padding: 2rem;
+  background-image: url("../images/bg-div-start.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.div-left-footer {
+  border-right: 1px solid #fff;
+  padding-left: 2.5rem;
+}
+.div-right-footer {
+  padding-left: 4rem;
+}
+.img-icon-what-we-are {
+  width: 70%;
+  height: auto;
+}
+.meetingroom-bg-gra {
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+}
+hr.meetingroom-hr {
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+  height: 5px;
+}
+.img-chair {
+  background-image: url("../images/chair.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-social-event {
+  background-image: url("../images/img-social.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-av-event {
+  background-image: url("../images/bg-av.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-corporate {
+  background-image: url("../images/bg-corporate.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5vh;
+  padding-bottom: 30vh;
+}
+.bg-programdesign {
+  background-image: url("../images/bg-program.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.bg-www {
+  background-image: url("../images/bg-www.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.div-content-head {
+  width: 50%;
+}
+.div-content-head.page-what-we-do {
+  width: 50%;
+}
+.div-succcess {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #7eb73a, #008da2);
+  padding: 5px;
+}
+.div-succcess-in {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 2.5rem;
+}
+.success-stories {
+  font-size: 4vh;
+  font-weight: 900;
+}
+.div-succcess-border {
+  border-right: 3px solid #44a270;
+}
+.icon-contact {
+  width: 70px;
+}
+.border-gra-meeeing {
+  border-image: linear-gradient(to left, #008da2 0%, #7eb73a 100%);
+  border-image-slice: 1;
+  border-width: 2px;
+}
+.btn-backtotop{
+  display: none!important;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  z-index: 99;
+  background-color: #fff;
+  padding: 1rem;
+}
+.link-all-div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+}
+@media only screen and (max-width: 1400px){
+  .div-content-head.page-what-we-do{
+    width: 69%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    cursor: pointer;
+  }
+  .navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item > .nav-link {
+    text-align: right;
+    border-right: none;
+  }
+  .navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item {
+    border-right: none;
+  }
+  .navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item:first-child {
+    border-left: none;
+  }
+  .navbar.navbar-light .meeting-navbar-nav.navbar-nav .nav-item:last-child {
+    border-right: none;
+  }
+  .line_headding {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #7eb73a, #008da2);
+  }
+  .line_headding2 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #7eb73a, #008da2);
+  }
+  .line_headding3 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #7eb73a, #008da2);
+  }
+  .line_headding4 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #7eb73a, #008da2);
+  }
+  .line_headding5 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #7eb73a, #008da2);
+  }
+  .div-map {
+    min-height: 450px;
+    position: relative;
+    padding: 0;
+  }
+  .div-map-incontact{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    left: 0;
+    right: 0;
+    bottom: 14vh;
+  }
+  .img-build-map{
+    width: 120px;
+    height: auto;
+  }
+  .contain-detail-map{
+    width: 45%;
+    background-color: #DCFBFF;
+  }
+  .div-map-incontact2{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    left: 0;
+    right: 0;
+    bottom: 10vh;
+  }
+  .contain-detail-map2{
+    width: 60%;
+    background-color: #DCFBFF;
+  }
+  .div-left-footer {
+    border-right: none;
+    border-bottom: 1px solid #fff;
+  }
+  .div-right-footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .default-f {
+    font-size: 1.1rem;
+  }
+  .default-p {
+    font-size: 1.1rem;
+    text-indent: 3rem;
+  }
+  .img-icon-what-we-are {
+    width: 20%;
+    height: auto;
+  }
+  .div-content-head {
+    width: 80%;
+  }
+  .div-content-head.page-what-we-do{
+    width: 90%;
+  }
+  .div-succcess-border {
+    border-right: none;
+    border-bottom: 2px solid #44a270;
+  }
+  .btn-backtotop{    
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    background-color: #fff;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .headding_slide {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  .sub_slide {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .line_headding {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #7eb73a, #008da2);
+  }
+  .img-icon-our-service {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+  }
+  .img-icon-service-solution {
+    width: 35px;
+    height: 35;
+    margin-right: 8px;
+  }
+  .default-f {
+    font-size: 1.1rem;
+  }
+  .default-p {
+    font-size: 1.1rem;
+    text-indent: 3rem;
+  }
+  .btn-outline-meetingroom {
+    border: 2px solid #386caa !important;
+    background-color: transparent !important;
+    color: #386caa !important;
+    border-radius: 1.5rem;
+    font-size: 1.1rem;
+  }
+  .div-map {
+    min-height: 400px;
+    position: relative;
+    padding: 0;
+  }
+  .div-map-incontact{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    left: 0;
+    right: 0;
+    bottom: 3vh;
+  }
+  .img-build-map{
+    width: 120px;
+    height: auto;
+  }
+  .contain-detail-map{
+    width: 90%;
+    background-color: #DCFBFF;
+  }
+  .div-map-incontact2{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    left: 0;
+    right: 0;
+    bottom: 12vh;
+  }
+  .contain-detail-map2{
+    width: 90%;
+    background-color: #DCFBFF;
+  }
+  .bg-corporate {
+    background-image: url("../images/bg-corporate.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .div-map-contact{
+    min-height: 350px;
+    position: relative;
+    padding: 0;
+  }
+  .btn-backtotop{    
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    background-color: #fff;
+    padding: 1rem;
+  }
+}
